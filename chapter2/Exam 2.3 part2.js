@@ -1,3 +1,9 @@
+// Part 2
+// The function should append to the array elements of the first array the following elements from the
+//  second array – if the index of the array child in the first array is even, append only the values of
+//   the second array that are of Array type (unpacking them and appending their content), if the index is
+//    uneven – append the object elements from the second array.
+
 const arr1 = [
   [1, 2, 3, 4],
   ["one", "two"],

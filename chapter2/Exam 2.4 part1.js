@@ -1,3 +1,8 @@
+// Exam 2.4
+// Create a JavaScript function that accepts two arguments - an array with numbers and a number and:
+// Part 1
+// Returns the sum of the elements in the array that have value higher than the number passed as argument
+
 const arr1 = [1, 2, 3, 4, 5, 6, 7];
 const higherThan = 4;
 let sum = 0;

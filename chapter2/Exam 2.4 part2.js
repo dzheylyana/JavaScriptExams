@@ -1,3 +1,6 @@
+// Part 2
+// Returns a new array with the elements that are divisible by the number passed into the array
+
 const arr1 = [1, 2, 3, 4, 5, 6, 7];
 const divisible = 2;
 let newArr = [];

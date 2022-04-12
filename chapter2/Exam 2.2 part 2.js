@@ -1,3 +1,7 @@
+// Part 2
+// Expand the function to perform a deep search as well (find the object in every property of each
+//  object recursively)
+
 const isObj = (obj) => typeof obj === "object" && obj !== null;
 
 const containsObj = (arr, obj) => {
