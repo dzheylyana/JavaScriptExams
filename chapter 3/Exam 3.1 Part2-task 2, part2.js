@@ -20,7 +20,7 @@ Array.prototype.containsObj = function (obj) {
     if (this[i] === obj) {
       return true;
     }
-    if (isObj(this[i]) && containsObj(Object.values(this[i], obj))) {
+    if (isObj(this[i]) && containsObj(Object.values(this[i]), obj)) {
       return true;
     }
   }

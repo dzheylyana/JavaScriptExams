@@ -3,7 +3,7 @@
 // Part 1
 // The function should accept one argument and return the longest word found. A word is a sequence of alphabetical characters (a to Z). Delimiters (. , ; ! ? etc.) and special characters (@, €, $ etc.) are not considered alphabetical characters.
 
-const findLongestWord = (str, char) => {
+const findLongestWord = (str) => {
   return str
     .toLowerCase()
     .split(" ")
